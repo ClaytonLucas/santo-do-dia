@@ -18,7 +18,7 @@ Uma API simples desenvolvida com Flask que realiza web scraping para obter infor
 
 ### 1️⃣ Clonar o Repositório
 ```bash
- git clone https://github.com/seuusuario/santo-do-dia-api.git
+ git clone https://github.com/ClaytonLucas/santo-do-dia-api.git
  cd santo-do-dia-api
 ```
 
