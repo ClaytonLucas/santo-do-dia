@@ -48,7 +48,7 @@ def home():
             page = requests.get(a['href'], headers=headers)
             soup = BeautifulSoup(page.text, 'html.parser')
 
-            saint_name = soup.find('div', class_='feature__name').text
+            saint_name = soup.find('h1', class_='feature__name').text
             saint_infos = soup.find('div', class_='wg-text').find_all('p')
             info = "".join(p.text + "\n\n" for p in saint_infos[:-4])
             reflexao = "".join(p.text + "\n\n" for p in saint_infos[-3])
@@ -63,7 +63,7 @@ def home():
                 'oracao': oracao
             })
     else:
-        saint_name = soup.find('div', class_='feature__name').text
+        saint_name = soup.find('h1', class_='feature__name').text
         saint_infos = soup.find('div', class_='wg-text').find_all('p')
         info = "".join(p.text + "\n\n" for p in saint_infos[:-4])
         reflexao = "".join(p.text + "\n\n" for p in saint_infos[-3])
@@ -130,7 +130,7 @@ def date(dia, mes):
             page = requests.get(a['href'], headers=headers)
             soup = BeautifulSoup(page.text, 'html.parser')
 
-            saint_name = soup.find('div', class_='feature__name').text
+            saint_name = soup.find('h1', class_='feature__name').text
             saint_infos = soup.find('div', class_='wg-text').find_all('p')
             info = "".join(p.text + "\n\n" for p in saint_infos[:-4])
             reflexao = "".join(p.text + "\n\n" for p in saint_infos[-3])
@@ -145,7 +145,7 @@ def date(dia, mes):
                 'oracao': oracao
             })
     else:
-        saint_name = soup.find('div', class_='feature__name').text
+        saint_name = soup.find('h1', class_='feature__name').text
         saint_infos = soup.find('div', class_='wg-text').find_all('p')
         info = "".join(p.text + "\n\n" for p in saint_infos[:-4])
         reflexao = "".join(p.text + "\n\n" for p in saint_infos[-3])
