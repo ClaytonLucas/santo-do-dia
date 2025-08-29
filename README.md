@@ -107,6 +107,25 @@ http://127.0.0.1:5000/apidocs/
 ```
 para visualizar e testar os endpoints diretamente pela interface interativa do Swagger.
 
+## 🌐 API em Produção (Replit)
+
+O projeto está disponível online no Replit:
+
+🔗 **URL da API**  
+[https://59952763-8243-4cd9-a90e-b0aedccaec95-00-3ssqhwg9tk2rz.worf.replit.dev](https://59952763-8243-4cd9-a90e-b0aedccaec95-00-3ssqhwg9tk2rz.worf.replit.dev)
+
+🧪 **Documentação Interativa (Swagger)**  
+[https://59952763-8243-4cd9-a90e-b0aedccaec95-00-3ssqhwg9tk2rz.worf.replit.dev/apidocs/](https://59952763-8243-4cd9-a90e-b0aedccaec95-00-3ssqhwg9tk2rz.worf.replit.dev/apidocs/)
+
+### Exemplos de Uso:
+
+#### ✅ Santo do dia atual
+[https://59952763-8243-4cd9-a90e-b0aedccaec95-00-3ssqhwg9tk2rz.worf.replit.dev/](https://59952763-8243-4cd9-a90e-b0aedccaec95-00-3ssqhwg9tk2rz.worf.replit.dev/)
+
+#### 📅 Santo de uma data específica (Ex: 5 de Junho)
+[https://59952763-8243-4cd9-a90e-b0aedccaec95-00-3ssqhwg9tk2rz.worf.replit.dev/dia=5&mes=6](https://59952763-8243-4cd9-a90e-b0aedccaec95-00-3ssqhwg9tk2rz.worf.replit.dev/dia=5&mes=6)
+
+
 ## 📜 Observações
 - O web scraping pode falhar caso o site de origem altere sua estrutura.
 - Pode haver variação no tempo de resposta devido ao carregamento da página de origem.
@@ -116,5 +135,5 @@ Este projeto está sob a licença MIT.
 
 ---
 
-📌 **Desenvolvido por [Seu Nome](https://github.com/seuusuario)** ✨
+📌 **Desenvolvido por [Clayton Lucas](https://github.com/ClaytonLucas)** ✨
 
